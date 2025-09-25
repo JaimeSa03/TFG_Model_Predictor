@@ -1,0 +1,7 @@
+Cuanto penaliza no llegar a la precision pedida
+
+Contaria si el ejercicio no compila? Es  decir tener en cuenta el codigo
+
+Entra regresion? O son solo clasficacion?
+
+Hay que usar Anaconda, esta ya instalado el programa en el laboratorio? Permite descargar librerias?
