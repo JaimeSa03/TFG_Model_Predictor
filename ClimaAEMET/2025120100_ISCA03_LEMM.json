@@ -1,0 +1,3591 @@
+{ "messages" : [ 
+
+ {
+  "key" : "subsetNumber",
+  "value" : 1
+ },
+ {
+  "key" : "blockNumber",
+  "value" : 60,
+  "index" : 1,
+  "code" : "001001",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 7
+ },
+ {
+  "key" : "stationNumber",
+  "value" : 320,
+  "index" : 2,
+  "code" : "001002",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 10
+ },
+ {
+  "key" : "stationOrSiteName",
+  "value" : "CEUTA/OBSERVATORIO",
+  "index" : 3,
+  "code" : "001015",
+  "units" : "CCITT IA5",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 160
+ },
+ {
+  "key" : "stationType",
+  "value" : 1,
+  "index" : 4,
+  "code" : "002001",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 2
+ },
+ {
+  "key" : "year",
+  "value" : 2025,
+  "index" : 5,
+  "code" : "004001",
+  "units" : "a",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 12
+ },
+ {
+  "key" : "month",
+  "value" : 12,
+  "index" : 6,
+  "code" : "004002",
+  "units" : "mon",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "day",
+  "value" : 1,
+  "index" : 7,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "hour",
+  "value" : 0,
+  "index" : 8,
+  "code" : "004004",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "minute",
+  "value" : 0,
+  "index" : 9,
+  "code" : "004005",
+  "units" : "min",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "latitude",
+  "value" : 35.8887,
+  "index" : 10,
+  "code" : "005001",
+  "units" : "deg",
+  "scale" : 5,
+  "reference" : -9000000,
+  "width" : 25
+ },
+ {
+  "key" : "longitude",
+  "value" : -5.34697,
+  "index" : 11,
+  "code" : "006001",
+  "units" : "deg",
+  "scale" : 5,
+  "reference" : -18000000,
+  "width" : 26
+ },
+ {
+  "key" : "heightOfStationGroundAboveMeanSeaLevel",
+  "value" : 85,
+  "index" : 12,
+  "code" : "007030",
+  "units" : "m",
+  "scale" : 1,
+  "reference" : -4000,
+  "width" : 17
+ },
+ {
+  "key" : "heightOfBarometerAboveMeanSeaLevel",
+  "value" : 88,
+  "index" : 13,
+  "code" : "007031",
+  "units" : "m",
+  "scale" : 1,
+  "reference" : -4000,
+  "width" : 17
+ },
+ {
+  "key" : "timePeriod",
+  "value" : 0,
+  "index" : 14,
+  "code" : "004074",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : -128,
+  "width" : 8
+ },
+ {
+  "key" : "timePeriod",
+  "value" : 31,
+  "index" : 15,
+  "code" : "004023",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : -1024,
+  "width" : 11
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : 4,
+  "index" : 16,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "nonCoordinatePressure",
+  "value" : 100670,
+  "index" : 17,
+  "code" : "010004",
+  "units" : "Pa",
+  "scale" : -1,
+  "reference" : 0,
+  "width" : 14
+ },
+ {
+  "key" : "pressureReducedToMeanSeaLevel",
+  "value" : 101720,
+  "index" : 18,
+  "code" : "010051",
+  "units" : "Pa",
+  "scale" : -1,
+  "reference" : 0,
+  "width" : 14
+ },
+ {
+  "key" : "pressure",
+  "value" : null,
+  "index" : 19,
+  "code" : "007004",
+  "units" : "Pa",
+  "scale" : -1,
+  "reference" : 0,
+  "width" : 14
+ },
+ {
+  "key" : "nonCoordinateGeopotentialHeight",
+  "value" : null,
+  "index" : 20,
+  "code" : "010009",
+  "units" : "gpm",
+  "scale" : 0,
+  "reference" : -1000,
+  "width" : 17
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : 1.5,
+  "index" : 21,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "airTemperature",
+  "value" : 287.25,
+  "index" : 22,
+  "code" : "012101",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "indicatorToSpecifyObservingMethodForExtremeTemperatures",
+  "value" : 1,
+  "index" : 23,
+  "code" : "002051",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "principalTimeOfDailyReadingOfMaximumTemperature",
+  "value" : 18,
+  "index" : 24,
+  "code" : "004051",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "maximumTemperatureAtHeightSpecifiedPast24Hours",
+  "value" : 289.95,
+  "index" : 25,
+  "code" : "012118",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "principalTimeOfDailyReadingOfMinimumTemperature",
+  "value" : 6,
+  "index" : 26,
+  "code" : "004052",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "minimumTemperatureAtHeightSpecifiedPast24Hours",
+  "value" : 284.55,
+  "index" : 27,
+  "code" : "012119",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "vapourPressure",
+  "value" : 1310,
+  "index" : 28,
+  "code" : "013004",
+  "units" : "Pa",
+  "scale" : -1,
+  "reference" : 0,
+  "width" : 10
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : null,
+  "index" : 29,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "dailyMeanTemperatureStandardDeviation",
+  "value" : 1.7,
+  "index" : 30,
+  "code" : "012151",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 12
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : null,
+  "index" : 31,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 1,
+  "index" : 32,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 33,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 2,
+  "index" : 34,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 35,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 4,
+  "index" : 36,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 37,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 7,
+  "index" : 38,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 39,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 8,
+  "index" : 40,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 41,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "totalSunshine",
+  "value" : 118,
+  "index" : 42,
+  "code" : "014032",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 10
+ },
+ {
+  "key" : "totalSunshine",
+  "value" : 73,
+  "index" : 43,
+  "code" : "014033",
+  "units" : "%",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 9
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 6,
+  "index" : 44,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 45,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 0,
+  "index" : 46,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 47,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 1,
+  "index" : 48,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 49,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 2,
+  "index" : 50,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 51,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 3,
+  "index" : 52,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 53,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 4,
+  "index" : 54,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 55,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 5,
+  "index" : 56,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 57,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 6,
+  "index" : 58,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 59,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 7,
+  "index" : 60,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 61,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 8,
+  "index" : 62,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 63,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 16,
+  "index" : 64,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 65,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 17,
+  "index" : 66,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 67,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 18,
+  "index" : 68,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 69,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 19,
+  "index" : 70,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 71,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 20,
+  "index" : 72,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : null,
+  "index" : 73,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 21,
+  "index" : 74,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : null,
+  "index" : 75,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 22,
+  "index" : 76,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : null,
+  "index" : 77,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 23,
+  "index" : 78,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 79,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 24,
+  "index" : 80,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 81,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : 1.5,
+  "index" : 82,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "dayOfOccurrenceQualifier",
+  "value" : 0,
+  "index" : 83,
+  "code" : "008053",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 2
+ },
+ {
+  "key" : "day",
+  "value" : 6,
+  "index" : 84,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "highestDailyMeanTemperature",
+  "value" : 291.15,
+  "index" : 85,
+  "code" : "012152",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "dayOfOccurrenceQualifier",
+  "value" : 0,
+  "index" : 86,
+  "code" : "008053",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 2
+ },
+ {
+  "key" : "day",
+  "value" : 22,
+  "index" : 87,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "lowestDailyMeanTemperature",
+  "value" : 284.45,
+  "index" : 88,
+  "code" : "012153",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "dayOfOccurrenceQualifier",
+  "value" : 0,
+  "index" : 89,
+  "code" : "008053",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 2
+ },
+ {
+  "key" : "day",
+  "value" : 6,
+  "index" : 90,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : 2,
+  "index" : 91,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "airTemperature",
+  "value" : 294.75,
+  "index" : 92,
+  "code" : "012101",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "dayOfOccurrenceQualifier",
+  "value" : 0,
+  "index" : 93,
+  "code" : "008053",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 2
+ },
+ {
+  "key" : "day",
+  "value" : 21,
+  "index" : 94,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : 3,
+  "index" : 95,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "airTemperature",
+  "value" : 281.35,
+  "index" : 96,
+  "code" : "012101",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : null,
+  "index" : 97,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : 10,
+  "index" : 98,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "instrumentationForWindMeasurement",
+  "value" : 8,
+  "index" : 99,
+  "code" : "002002",
+  "units" : "FLAG TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "dayOfOccurrenceQualifier",
+  "value" : 0,
+  "index" : 100,
+  "code" : "008053",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 2
+ },
+ {
+  "key" : "day",
+  "value" : 16,
+  "index" : 101,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "maximumInstantaneousWindSpeed",
+  "value" : 18.9,
+  "index" : 102,
+  "code" : "011046",
+  "units" : "m/s",
+  "scale" : 1,
+  "reference" : 0,
+  "width" : 12
+ },
+ {
+  "key" : "dayOfOccurrenceQualifier",
+  "value" : null,
+  "index" : 103,
+  "code" : "008053",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 2
+ },
+ {
+  "key" : "day",
+  "value" : 1,
+  "index" : 104,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "hour",
+  "value" : 6,
+  "index" : 105,
+  "code" : "004004",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "timePeriod",
+  "value" : 31,
+  "index" : 106,
+  "code" : "004023",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : -1024,
+  "width" : 11
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : 1.5,
+  "index" : 107,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "totalAccumulatedPrecipitation",
+  "value" : 209,
+  "index" : 108,
+  "code" : "013060",
+  "units" : "kg m-2",
+  "scale" : 1,
+  "reference" : -1,
+  "width" : 17
+ },
+ {
+  "key" : "frequencyGroupPrecipitation",
+  "value" : 5,
+  "index" : 109,
+  "code" : "013051",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "numberOfDaysWithPrecipitationEqualToOrMoreThan1Mm",
+  "value" : 17,
+  "index" : 110,
+  "code" : "004053",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 5,
+  "index" : 111,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 112,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 10,
+  "index" : 113,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 17,
+  "index" : 114,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 11,
+  "index" : 115,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 13,
+  "index" : 116,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 12,
+  "index" : 117,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 7,
+  "index" : 118,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 13,
+  "index" : 119,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 120,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 14,
+  "index" : 121,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 122,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 15,
+  "index" : 123,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 124,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "dayOfOccurrenceQualifier",
+  "value" : 0,
+  "index" : 125,
+  "code" : "008053",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 2
+ },
+ {
+  "key" : "day",
+  "value" : 15,
+  "index" : 126,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "highestDailyAmountOfPrecipitation",
+  "value" : 29.6,
+  "index" : 127,
+  "code" : "013052",
+  "units" : "kg m-2",
+  "scale" : 1,
+  "reference" : -1,
+  "width" : 14
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : null,
+  "index" : 128,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "year",
+  "value" : 1961,
+  "index" : 129,
+  "code" : "004001",
+  "units" : "a",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 12
+ },
+ {
+  "key" : "year",
+  "value" : 1990,
+  "index" : 130,
+  "code" : "004001",
+  "units" : "a",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 12
+ },
+ {
+  "key" : "month",
+  "value" : 12,
+  "index" : 131,
+  "code" : "004002",
+  "units" : "mon",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "day",
+  "value" : 1,
+  "index" : 132,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "hour",
+  "value" : 0,
+  "index" : 133,
+  "code" : "004004",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "timePeriod",
+  "value" : 0,
+  "index" : 134,
+  "code" : "004074",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : -128,
+  "width" : 8
+ },
+ {
+  "key" : "timePeriod",
+  "value" : 1,
+  "index" : 135,
+  "code" : "004022",
+  "units" : "mon",
+  "scale" : 0,
+  "reference" : -1024,
+  "width" : 11
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : 4,
+  "index" : 136,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "nonCoordinatePressure",
+  "value" : 99610,
+  "index" : 137,
+  "code" : "010004",
+  "units" : "Pa",
+  "scale" : -1,
+  "reference" : 0,
+  "width" : 14
+ },
+ {
+  "key" : "pressureReducedToMeanSeaLevel",
+  "value" : null,
+  "index" : 138,
+  "code" : "010051",
+  "units" : "Pa",
+  "scale" : -1,
+  "reference" : 0,
+  "width" : 14
+ },
+ {
+  "key" : "pressure",
+  "value" : null,
+  "index" : 139,
+  "code" : "007004",
+  "units" : "Pa",
+  "scale" : -1,
+  "reference" : 0,
+  "width" : 14
+ },
+ {
+  "key" : "nonCoordinateGeopotentialHeight",
+  "value" : null,
+  "index" : 140,
+  "code" : "010009",
+  "units" : "gpm",
+  "scale" : 0,
+  "reference" : -1000,
+  "width" : 17
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : 1.5,
+  "index" : 141,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "airTemperature",
+  "value" : 285.15,
+  "index" : 142,
+  "code" : "012101",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "indicatorToSpecifyObservingMethodForExtremeTemperatures",
+  "value" : 1,
+  "index" : 143,
+  "code" : "002051",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "principalTimeOfDailyReadingOfMaximumTemperature",
+  "value" : 18,
+  "index" : 144,
+  "code" : "004051",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "maximumTemperatureAtHeightSpecifiedPast24Hours",
+  "value" : 288.35,
+  "index" : 145,
+  "code" : "012118",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "principalTimeOfDailyReadingOfMinimumTemperature",
+  "value" : 6,
+  "index" : 146,
+  "code" : "004052",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "minimumTemperatureAtHeightSpecifiedPast24Hours",
+  "value" : 282.05,
+  "index" : 147,
+  "code" : "012119",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "vapourPressure",
+  "value" : 1330,
+  "index" : 148,
+  "code" : "013004",
+  "units" : "Pa",
+  "scale" : -1,
+  "reference" : 0,
+  "width" : 10
+ },
+ {
+  "key" : "dailyMeanTemperatureStandardDeviation",
+  "value" : 1.3,
+  "index" : 149,
+  "code" : "012151",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 12
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : null,
+  "index" : 150,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "totalSunshine",
+  "value" : 161,
+  "index" : 151,
+  "code" : "014032",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 10
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : null,
+  "index" : 152,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "year",
+  "value" : 1961,
+  "index" : 153,
+  "code" : "004001",
+  "units" : "a",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 12
+ },
+ {
+  "key" : "year",
+  "value" : 1990,
+  "index" : 154,
+  "code" : "004001",
+  "units" : "a",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 12
+ },
+ {
+  "key" : "month",
+  "value" : 12,
+  "index" : 155,
+  "code" : "004002",
+  "units" : "mon",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "day",
+  "value" : 1,
+  "index" : 156,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "hour",
+  "value" : 6,
+  "index" : 157,
+  "code" : "004004",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "timePeriod",
+  "value" : 1,
+  "index" : 158,
+  "code" : "004022",
+  "units" : "mon",
+  "scale" : 0,
+  "reference" : -1024,
+  "width" : 11
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : 1.5,
+  "index" : 159,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : 4,
+  "index" : 160,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "totalAccumulatedPrecipitation",
+  "value" : 108,
+  "index" : 161,
+  "code" : "013060",
+  "units" : "kg m-2",
+  "scale" : 1,
+  "reference" : -1,
+  "width" : 17
+ },
+ {
+  "key" : "numberOfDaysWithPrecipitationEqualToOrMoreThan1Mm",
+  "value" : 9,
+  "index" : 162,
+  "code" : "004053",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : null,
+  "index" : 163,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 1,
+  "index" : 164,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 8,
+  "index" : 165,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 2,
+  "index" : 166,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 8,
+  "index" : 167,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 3,
+  "index" : 168,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 8,
+  "index" : 169,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 4,
+  "index" : 170,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 8,
+  "index" : 171,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 5,
+  "index" : 172,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 8,
+  "index" : 173,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 6,
+  "index" : 174,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 8,
+  "index" : 175,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 7,
+  "index" : 176,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 8,
+  "index" : 177,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 8,
+  "index" : 178,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 8,
+  "index" : 179,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "subsetNumber",
+  "value" : 2
+ },
+ {
+  "key" : "blockNumber",
+  "value" : 60,
+  "index" : 180,
+  "code" : "001001",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 7
+ },
+ {
+  "key" : "stationNumber",
+  "value" : 338,
+  "index" : 181,
+  "code" : "001002",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 10
+ },
+ {
+  "key" : "stationOrSiteName",
+  "value" : "MELILLA",
+  "index" : 182,
+  "code" : "001015",
+  "units" : "CCITT IA5",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 160
+ },
+ {
+  "key" : "stationType",
+  "value" : 1,
+  "index" : 183,
+  "code" : "002001",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 2
+ },
+ {
+  "key" : "year",
+  "value" : 2025,
+  "index" : 184,
+  "code" : "004001",
+  "units" : "a",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 12
+ },
+ {
+  "key" : "month",
+  "value" : 12,
+  "index" : 185,
+  "code" : "004002",
+  "units" : "mon",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "day",
+  "value" : 1,
+  "index" : 186,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "hour",
+  "value" : 0,
+  "index" : 187,
+  "code" : "004004",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "minute",
+  "value" : 0,
+  "index" : 188,
+  "code" : "004005",
+  "units" : "min",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "latitude",
+  "value" : 35.2797,
+  "index" : 189,
+  "code" : "005001",
+  "units" : "deg",
+  "scale" : 5,
+  "reference" : -9000000,
+  "width" : 25
+ },
+ {
+  "key" : "longitude",
+  "value" : -2.95639,
+  "index" : 190,
+  "code" : "006001",
+  "units" : "deg",
+  "scale" : 5,
+  "reference" : -18000000,
+  "width" : 26
+ },
+ {
+  "key" : "heightOfStationGroundAboveMeanSeaLevel",
+  "value" : 48,
+  "index" : 191,
+  "code" : "007030",
+  "units" : "m",
+  "scale" : 1,
+  "reference" : -4000,
+  "width" : 17
+ },
+ {
+  "key" : "heightOfBarometerAboveMeanSeaLevel",
+  "value" : 55,
+  "index" : 192,
+  "code" : "007031",
+  "units" : "m",
+  "scale" : 1,
+  "reference" : -4000,
+  "width" : 17
+ },
+ {
+  "key" : "timePeriod",
+  "value" : 0,
+  "index" : 193,
+  "code" : "004074",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : -128,
+  "width" : 8
+ },
+ {
+  "key" : "timePeriod",
+  "value" : 31,
+  "index" : 194,
+  "code" : "004023",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : -1024,
+  "width" : 11
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : 4,
+  "index" : 195,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "nonCoordinatePressure",
+  "value" : 101040,
+  "index" : 196,
+  "code" : "010004",
+  "units" : "Pa",
+  "scale" : -1,
+  "reference" : 0,
+  "width" : 14
+ },
+ {
+  "key" : "pressureReducedToMeanSeaLevel",
+  "value" : 101690,
+  "index" : 197,
+  "code" : "010051",
+  "units" : "Pa",
+  "scale" : -1,
+  "reference" : 0,
+  "width" : 14
+ },
+ {
+  "key" : "pressure",
+  "value" : null,
+  "index" : 198,
+  "code" : "007004",
+  "units" : "Pa",
+  "scale" : -1,
+  "reference" : 0,
+  "width" : 14
+ },
+ {
+  "key" : "nonCoordinateGeopotentialHeight",
+  "value" : null,
+  "index" : 199,
+  "code" : "010009",
+  "units" : "gpm",
+  "scale" : 0,
+  "reference" : -1000,
+  "width" : 17
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : 1.5,
+  "index" : 200,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "airTemperature",
+  "value" : 287.65,
+  "index" : 201,
+  "code" : "012101",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "indicatorToSpecifyObservingMethodForExtremeTemperatures",
+  "value" : 1,
+  "index" : 202,
+  "code" : "002051",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "principalTimeOfDailyReadingOfMaximumTemperature",
+  "value" : 18,
+  "index" : 203,
+  "code" : "004051",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "maximumTemperatureAtHeightSpecifiedPast24Hours",
+  "value" : 291.05,
+  "index" : 204,
+  "code" : "012118",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "principalTimeOfDailyReadingOfMinimumTemperature",
+  "value" : 6,
+  "index" : 205,
+  "code" : "004052",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "minimumTemperatureAtHeightSpecifiedPast24Hours",
+  "value" : 284.25,
+  "index" : 206,
+  "code" : "012119",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "vapourPressure",
+  "value" : 1210,
+  "index" : 207,
+  "code" : "013004",
+  "units" : "Pa",
+  "scale" : -1,
+  "reference" : 0,
+  "width" : 10
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : null,
+  "index" : 208,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "dailyMeanTemperatureStandardDeviation",
+  "value" : 1.5,
+  "index" : 209,
+  "code" : "012151",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 12
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : null,
+  "index" : 210,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 1,
+  "index" : 211,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 212,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 2,
+  "index" : 213,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 214,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 4,
+  "index" : 215,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 216,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 7,
+  "index" : 217,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 218,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 8,
+  "index" : 219,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 220,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "totalSunshine",
+  "value" : 144,
+  "index" : 221,
+  "code" : "014032",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 10
+ },
+ {
+  "key" : "totalSunshine",
+  "value" : 91,
+  "index" : 222,
+  "code" : "014033",
+  "units" : "%",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 9
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 6,
+  "index" : 223,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 224,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 0,
+  "index" : 225,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 226,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 1,
+  "index" : 227,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 228,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 2,
+  "index" : 229,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 230,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 3,
+  "index" : 231,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 232,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 4,
+  "index" : 233,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 234,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 5,
+  "index" : 235,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 236,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 6,
+  "index" : 237,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 238,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 7,
+  "index" : 239,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 240,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 8,
+  "index" : 241,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 242,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 16,
+  "index" : 243,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 244,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 17,
+  "index" : 245,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 246,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 18,
+  "index" : 247,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 248,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 19,
+  "index" : 249,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 250,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 20,
+  "index" : 251,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 252,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 21,
+  "index" : 253,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 254,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 22,
+  "index" : 255,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 256,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 23,
+  "index" : 257,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 258,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 24,
+  "index" : 259,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 1,
+  "index" : 260,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : 1.5,
+  "index" : 261,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "dayOfOccurrenceQualifier",
+  "value" : 0,
+  "index" : 262,
+  "code" : "008053",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 2
+ },
+ {
+  "key" : "day",
+  "value" : 6,
+  "index" : 263,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "highestDailyMeanTemperature",
+  "value" : 291.75,
+  "index" : 264,
+  "code" : "012152",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "dayOfOccurrenceQualifier",
+  "value" : 0,
+  "index" : 265,
+  "code" : "008053",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 2
+ },
+ {
+  "key" : "day",
+  "value" : 22,
+  "index" : 266,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "lowestDailyMeanTemperature",
+  "value" : 284.95,
+  "index" : 267,
+  "code" : "012153",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "dayOfOccurrenceQualifier",
+  "value" : 0,
+  "index" : 268,
+  "code" : "008053",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 2
+ },
+ {
+  "key" : "day",
+  "value" : 6,
+  "index" : 269,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : 2,
+  "index" : 270,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "airTemperature",
+  "value" : 294.85,
+  "index" : 271,
+  "code" : "012101",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "dayOfOccurrenceQualifier",
+  "value" : 0,
+  "index" : 272,
+  "code" : "008053",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 2
+ },
+ {
+  "key" : "day",
+  "value" : 17,
+  "index" : 273,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : 3,
+  "index" : 274,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "airTemperature",
+  "value" : 281.75,
+  "index" : 275,
+  "code" : "012101",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : null,
+  "index" : 276,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : 10,
+  "index" : 277,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "instrumentationForWindMeasurement",
+  "value" : 8,
+  "index" : 278,
+  "code" : "002002",
+  "units" : "FLAG TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "dayOfOccurrenceQualifier",
+  "value" : 0,
+  "index" : 279,
+  "code" : "008053",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 2
+ },
+ {
+  "key" : "day",
+  "value" : 3,
+  "index" : 280,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "maximumInstantaneousWindSpeed",
+  "value" : 17.8,
+  "index" : 281,
+  "code" : "011046",
+  "units" : "m/s",
+  "scale" : 1,
+  "reference" : 0,
+  "width" : 12
+ },
+ {
+  "key" : "dayOfOccurrenceQualifier",
+  "value" : null,
+  "index" : 282,
+  "code" : "008053",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 2
+ },
+ {
+  "key" : "day",
+  "value" : 1,
+  "index" : 283,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "hour",
+  "value" : 6,
+  "index" : 284,
+  "code" : "004004",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "timePeriod",
+  "value" : 31,
+  "index" : 285,
+  "code" : "004023",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : -1024,
+  "width" : 11
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : 1.5,
+  "index" : 286,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "totalAccumulatedPrecipitation",
+  "value" : 100,
+  "index" : 287,
+  "code" : "013060",
+  "units" : "kg m-2",
+  "scale" : 1,
+  "reference" : -1,
+  "width" : 17
+ },
+ {
+  "key" : "frequencyGroupPrecipitation",
+  "value" : 5,
+  "index" : 288,
+  "code" : "013051",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "numberOfDaysWithPrecipitationEqualToOrMoreThan1Mm",
+  "value" : 16,
+  "index" : 289,
+  "code" : "004053",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 5,
+  "index" : 290,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 291,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 10,
+  "index" : 292,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 16,
+  "index" : 293,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 11,
+  "index" : 294,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 9,
+  "index" : 295,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 12,
+  "index" : 296,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 2,
+  "index" : 297,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 13,
+  "index" : 298,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 299,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 14,
+  "index" : 300,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 301,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "conditionForWhichNumberOfDaysOfOccurrenceFollows",
+  "value" : 15,
+  "index" : 302,
+  "code" : "008052",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "totalNumberWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 303,
+  "code" : "008022",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "dayOfOccurrenceQualifier",
+  "value" : 0,
+  "index" : 304,
+  "code" : "008053",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 2
+ },
+ {
+  "key" : "day",
+  "value" : 24,
+  "index" : 305,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "highestDailyAmountOfPrecipitation",
+  "value" : 16.2,
+  "index" : 306,
+  "code" : "013052",
+  "units" : "kg m-2",
+  "scale" : 1,
+  "reference" : -1,
+  "width" : 14
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : null,
+  "index" : 307,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "year",
+  "value" : 1961,
+  "index" : 308,
+  "code" : "004001",
+  "units" : "a",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 12
+ },
+ {
+  "key" : "year",
+  "value" : 1990,
+  "index" : 309,
+  "code" : "004001",
+  "units" : "a",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 12
+ },
+ {
+  "key" : "month",
+  "value" : 12,
+  "index" : 310,
+  "code" : "004002",
+  "units" : "mon",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "day",
+  "value" : 1,
+  "index" : 311,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "hour",
+  "value" : 0,
+  "index" : 312,
+  "code" : "004004",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "timePeriod",
+  "value" : 0,
+  "index" : 313,
+  "code" : "004074",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : -128,
+  "width" : 8
+ },
+ {
+  "key" : "timePeriod",
+  "value" : 1,
+  "index" : 314,
+  "code" : "004022",
+  "units" : "mon",
+  "scale" : 0,
+  "reference" : -1024,
+  "width" : 11
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : 4,
+  "index" : 315,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "nonCoordinatePressure",
+  "value" : 101400,
+  "index" : 316,
+  "code" : "010004",
+  "units" : "Pa",
+  "scale" : -1,
+  "reference" : 0,
+  "width" : 14
+ },
+ {
+  "key" : "pressureReducedToMeanSeaLevel",
+  "value" : 101980,
+  "index" : 317,
+  "code" : "010051",
+  "units" : "Pa",
+  "scale" : -1,
+  "reference" : 0,
+  "width" : 14
+ },
+ {
+  "key" : "pressure",
+  "value" : null,
+  "index" : 318,
+  "code" : "007004",
+  "units" : "Pa",
+  "scale" : -1,
+  "reference" : 0,
+  "width" : 14
+ },
+ {
+  "key" : "nonCoordinateGeopotentialHeight",
+  "value" : null,
+  "index" : 319,
+  "code" : "010009",
+  "units" : "gpm",
+  "scale" : 0,
+  "reference" : -1000,
+  "width" : 17
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : 1.5,
+  "index" : 320,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "airTemperature",
+  "value" : 287.25,
+  "index" : 321,
+  "code" : "012101",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "indicatorToSpecifyObservingMethodForExtremeTemperatures",
+  "value" : 1,
+  "index" : 322,
+  "code" : "002051",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "principalTimeOfDailyReadingOfMaximumTemperature",
+  "value" : 18,
+  "index" : 323,
+  "code" : "004051",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "maximumTemperatureAtHeightSpecifiedPast24Hours",
+  "value" : 290.55,
+  "index" : 324,
+  "code" : "012118",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "principalTimeOfDailyReadingOfMinimumTemperature",
+  "value" : 6,
+  "index" : 325,
+  "code" : "004052",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "minimumTemperatureAtHeightSpecifiedPast24Hours",
+  "value" : 283.95,
+  "index" : 326,
+  "code" : "012119",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "vapourPressure",
+  "value" : 1170,
+  "index" : 327,
+  "code" : "013004",
+  "units" : "Pa",
+  "scale" : -1,
+  "reference" : 0,
+  "width" : 10
+ },
+ {
+  "key" : "dailyMeanTemperatureStandardDeviation",
+  "value" : 1.1,
+  "index" : 328,
+  "code" : "012151",
+  "units" : "K",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 12
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : null,
+  "index" : 329,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "totalSunshine",
+  "value" : 158,
+  "index" : 330,
+  "code" : "014032",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 10
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : null,
+  "index" : 331,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "year",
+  "value" : 1961,
+  "index" : 332,
+  "code" : "004001",
+  "units" : "a",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 12
+ },
+ {
+  "key" : "year",
+  "value" : 1990,
+  "index" : 333,
+  "code" : "004001",
+  "units" : "a",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 12
+ },
+ {
+  "key" : "month",
+  "value" : 12,
+  "index" : 334,
+  "code" : "004002",
+  "units" : "mon",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "day",
+  "value" : 1,
+  "index" : 335,
+  "code" : "004003",
+  "units" : "d",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "hour",
+  "value" : 6,
+  "index" : 336,
+  "code" : "004004",
+  "units" : "h",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 5
+ },
+ {
+  "key" : "timePeriod",
+  "value" : 1,
+  "index" : 337,
+  "code" : "004022",
+  "units" : "mon",
+  "scale" : 0,
+  "reference" : -1024,
+  "width" : 11
+ },
+ {
+  "key" : "heightOfSensorAboveLocalGroundOrDeckOfMarinePlatform",
+  "value" : 1.5,
+  "index" : 338,
+  "code" : "007032",
+  "units" : "m",
+  "scale" : 2,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : 4,
+  "index" : 339,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "totalAccumulatedPrecipitation",
+  "value" : 52,
+  "index" : 340,
+  "code" : "013060",
+  "units" : "kg m-2",
+  "scale" : 1,
+  "reference" : -1,
+  "width" : 17
+ },
+ {
+  "key" : "numberOfDaysWithPrecipitationEqualToOrMoreThan1Mm",
+  "value" : 6,
+  "index" : 341,
+  "code" : "004053",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "firstOrderStatistics",
+  "value" : null,
+  "index" : 342,
+  "code" : "008023",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 6
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 1,
+  "index" : 343,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 344,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 2,
+  "index" : 345,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 346,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 3,
+  "index" : 347,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 9,
+  "index" : 348,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 4,
+  "index" : 349,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 350,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 5,
+  "index" : 351,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 352,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 6,
+  "index" : 353,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 0,
+  "index" : 354,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 7,
+  "index" : 355,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 9,
+  "index" : 356,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ },
+ {
+  "key" : "qualifierForNumberOfMissingValuesInCalculationOfStatistic",
+  "value" : 8,
+  "index" : 357,
+  "code" : "008050",
+  "units" : "CODE TABLE",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 4
+ },
+ {
+  "key" : "totalNumberOfMissingEntitiesWithRespectToAccumulationOrAverage",
+  "value" : 9,
+  "index" : 358,
+  "code" : "008020",
+  "units" : "Numeric",
+  "scale" : 0,
+  "reference" : 0,
+  "width" : 16
+ }
+]}
