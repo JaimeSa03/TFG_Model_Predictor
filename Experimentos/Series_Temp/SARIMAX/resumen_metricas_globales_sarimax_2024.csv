@@ -1,0 +1,2 @@
+Modelo,MAE (€/MWh),RMSE (€/MWh),R²,MAPE (%),wAPE (%),sMAPE (%),MedAE (€/MWh),Moda Error (€/MWh)
+SARIMAX,36.624,43.806,0.09,1.4128161564303956e+18,58.09,75.92,35.381,39
