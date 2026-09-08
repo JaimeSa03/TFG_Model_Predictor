@@ -1,6 +1,6 @@
-#Trabajo Fin de Grado
+# Trabajo Fin de Grado
 
-#Predicción de coste de la luz en base a los factores que lo determinan en España
+# Predicción de coste de la luz en base a los factores que lo determinan en España
 
 ## Autores
 
@@ -56,6 +56,7 @@ Entre los modelos estudiados se encuentran:
 
 Algunos archivos y recursos utilizados durante el desarrollo del proyecto,
 que por su tamaño o naturaleza no se incluyen directamente en el repositorio,
-están disponibles en la siguiente carpeta:
+están disponibles en las siguientes carpetas:
 
 https://drive.google.com/drive/u/1/folders/1k0xrbdfGC4SHZyjCtm_hme3w7HjT-OHl
+https://drive.google.com/drive/folders/1yuz9iV8zO7Qp_89ZZFqUfPTb7fauoEpd?usp=drive_link
