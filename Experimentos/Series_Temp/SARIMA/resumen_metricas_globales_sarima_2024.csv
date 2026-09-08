@@ -1,0 +1,2 @@
+Modelo,MAE (€/MWh),RMSE (€/MWh),R²,MAPE (%),wAPE (%),sMAPE (%),MedAE (€/MWh),Moda Error (€/MWh)
+SARIMA,39.862,47.14,-0.053,1.2284398575345815e+18,63.22,84.55,36.441,33
